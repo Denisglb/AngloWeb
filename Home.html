@@ -73,7 +73,18 @@
 
 	    <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">Why Angloslav?</a></li>
+				<li class="dropdown">
+        			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Why Angloslav<b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+					  <li><a href="#">About Us</a></li>
+					  <li><a href="#">Our Philosophy</a></li>
+					  <li><a href="#">Our Team</a></li>
+					  <li class="divider"></li>
+					  <li><a href="#">Career Guidance</a></li>
+					  <li class="divider"></li>
+				      <li><a href="#">Testimonials</a></li>
+        			</ul>
+        		</li>
         		<li><a href="#">Guardianship</a></li>
         		<li class="dropdown">
         			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Education<b class="caret"></b></a>
@@ -81,12 +92,17 @@
 					  <li><a href="#">Preparatory School</a></li>
 					  <li><a href="#">Secondary School</a></li>
 					  <li><a href="#">Undergraduate Education</a></li>
+					  <li><a href="#">Postgraduate Education</a></li>
 					  <li class="divider"></li>
 					  <li><a href="#">Comparison of Education Systems</a></li>
 					  <li class="divider"></li>
 				      <li><a href="#">Courses</a></li>
         			</ul>
         		</li>
+        		<li><a href="#">Courses</a></li>
+        		<li><a href="#">News and Events</a></li>
+        		<li><a href="#">Additional Services</a></li>
+        		<li><a href="#">Contact Us</a></li>
         		<li>
 					<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-white btn-simple btn-just-icon">
 						<i class="fa fa-twitter"></i>
@@ -98,8 +114,8 @@
 					</a>
 				</li>
 				<li>
-					<a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-instagram"></i>
+					<a rel="tooltip" title="Contact us" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+						<i class="material-icons">call</i>
 					</a>
 				</li>
     		</ul>
@@ -148,7 +164,7 @@
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner">
 							<div class="item active">
-								<img src="assets/img/image3.png" alt="Awesome Image">
+								<img src="assets/img/image5.jpg" alt="Awesome Image">
 								<div class="carousel-caption">
 									<h4> Established in 1993, AngloSlav Education is the leading provider of guardianship, educational advisory services and career coaching for foreign students </h4>
 								</div>
@@ -172,7 +188,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<img src="assets/img/image5.jpg" alt="Awesome Image">
+								<img src="assets/img/image3.png" alt="Awesome Image">
 								<div class="carousel-caption">
 									<h4>Yellowstone National Park, United States</h4>
 								</div>
@@ -220,50 +236,103 @@
 			</div>
 		</div>
 		<br><br>
-		<div class="container">
 			<div class ="row">
-				<div class = "col-md-12">
-					<h2><center>Quick Links</center></h2>
-					<div class="col-sm-3">
-	                        <img src="assets/img/primary.jpg" class="img-rounded img-responsive">
-	                        <center><button class="btn btn-primary">
-								<i class="material-icons">grade</i> Primary Education
-							</button></center>
-	                </div>
-	                <div class="col-sm-3">
-	                        <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
-	                        <center><button class="btn btn-primary">
-								<i class="material-icons">tag_faces</i> Secondary Education
-							</button></center>
-	                </div>
-	                <div class="col-sm-3">
-	                        <img src="assets/img/inga.jpg" alt="Rounded Image" class="img-rounded img-responsive">
-	                        <center><button class="btn btn-primary">
-								<i class="fa fa-graduation-cap" aria-hidden="true"></i> University
-							</button></center>
-	                </div>
-	                <div class="col-sm-3">
-	                        <img src="assets/img/inga.jpg" alt="Rounded Image" class="img-rounded img-responsive">
-	                        <center><button class="btn btn-primary">
-								<i class="material-icons">business</i> PostGraduate
-							</button></center>
-	                </div>
+					<div class = "col-sm-12">
+						<h2><center>Quick Links</center></h2>
+						<!-- <div class="quick-links"> -->
+						<div class = "quick-links">
+						<div class="col-sm-2">
+		                        <img src="assets/img/primary.jpg" class="img-rounded img-responsive">
+		                        <center><button class="btn btn-primary">
+									<i class="material-icons">grade</i> Preparatory<br>School
+								</button></center>
+		                </div>
+		                <div class="col-sm-2">
+		                        <img src="assets/img/school.jpg" class="img-rounded img-responsive">
+		                        <center><button class="btn btn-primary">
+									<i class="material-icons">tag_faces</i> Secondary<br>School
+								</button></center>
+		                </div>
+		                <div class="col-sm-2">
+		                        <img src="assets/img/undergrad.jpg" alt="Rounded Image" class="img-rounded img-responsive">
+		                        <center><button class="btn btn-primary">
+									<i class="fa fa-graduation-cap" aria-hidden="true"></i> Undergraduate<br>Education
+								</button></center>
+		                </div>
+		                <div class="col-sm-2">
+		                        <img src="assets/img/Postgraduate.jpg" alt="Rounded Image" class="img-rounded img-responsive">
+		                        <center><button class="btn btn-primary">
+									<i class="material-icons">business</i> Postgraduate<br>Education
+								</button></center>
+		                </div>
+		                <div class="col-sm-2">
+		                        <img src="assets/img/course.jpg" alt="Rounded Image" class="img-rounded img-responsive">
+		                        <center><button class="btn btn-primary">
+									<i class="material-icons">business</i> Courses
+								</button></center>
+		                </div>
+		            </div>
 				</div>
 			</div>
-		</div>
+		
 		<div class="why" style="background-image: url('assets/img/bg2.jpeg');">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="brand">
-						<h1>Why AngloSlav?</h1>
-						<br>
-						<h3>Peerless excellence, timeless devotion, discover more about the services we provide to help your child achieve the greatness of which they are capable.</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="brand">
+							<h1>Why AngloSlav?</h1>
+							<br>
+							<h3>Peerless excellence, timeless devotion, discover more about the services we provide to help your child achieve the greatness of which they are capable.</h3>
+						</div>
 					</div>
 				</div>
 			</div>
-
 		</div>
+		<div class="row">
+		<div class="col-md-12">
+                <div id="school-carousel" class="carousel">
+
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                	<div class="row">
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                </div><!--.carousel-inner-->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+						<i class="material-icons">keyboard_arrow_left</i>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+						<i class="material-icons">keyboard_arrow_right</i>
+					</a>
+                </div><!--.Carousel-->
+                 
+		</div>
+	</div>
 </div>
 
 
