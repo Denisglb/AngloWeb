@@ -1980,7 +1980,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font: 10em "Oswald", sans-serif;
+  font: 1em "Oswald", sans-serif;
   color: #9b9b9b;
   line-height: 1;
 }
@@ -2003,11 +2003,11 @@ footer {
 .footer-list-header {
   padding: 10px 0 5px 0;
   color: #fff;
-  font: 2.3vw "Oswald", sans-serif;
+  font: 1.5vw "Oswald", sans-serif;
 }
 
 .footer-list-anchor {
-  font: 1.3em "Open Sans", sans-serif;
+  font: 1em "Open Sans", sans-serif;
 }
 
 .footer-social-section {
@@ -2045,7 +2045,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font: 3.5em "Oswald", sans-serif;
+  font: 2em "Oswald", sans-serif;
   color: #fff;
 }
 
@@ -2055,7 +2055,7 @@ footer {
 }
 
 .footer-social-overlap > a {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .footer-social-overlap > a:not(:first-child) {
@@ -2074,7 +2074,7 @@ footer {
 }
 
 .footer-bottom-wrapper {
-  font-size: 1.5em;
+  font-size: 0.7em;
   color: #fff;
 }
 
@@ -3046,7 +3046,7 @@ h2.title {
 
 /*School Carousel*/
 .new-carousel {
-  border: 1px solid #333;
+  
   height: 156px;
   padding:0 0 0 2px;
   width: 762px;
