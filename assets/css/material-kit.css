@@ -2793,6 +2793,42 @@ h2.title {
   min-width: 130px;
 }
 
+.new-carousel {
+  border: 1px solid #333;
+  height: 156px;
+  padding:0 0 0 2px;
+  width: 762px;
+}
+.new-carousel#carousel-vertical {
+  height: 306px;
+  padding: 0;
+  width: auto;
+}
+.new-carousel#carousel-responsive {
+  width: auto;
+}
+.new-carousel li, 
+.new-carousel > div > div {
+  color: #fff;
+  padding:2px 0 2px 2px;
+}
+
+.new-carousel h1, h2, h3, h4, h5, p, ul, li, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.new-carousel span {
+  background: #999;
+  display: block;
+  height: 150px;
+  font-size: 100px;
+  line-height: 150px;
+  text-align: center;
+  width: 250px;
+}
+
 .carousel-control {
   width: 50%;
 }
@@ -2860,10 +2896,10 @@ h2.title {
   background: url('../../assets/img/image2.png') top center no-repeat;
 }
 #slide3 {
-  background: url('../../assets/img/image2.png') top center no-repeat;
+  background: url('../../assets/img/image6.png') top center no-repeat;
 }
 #slide4 {
-  background: url('../../assets/img/image2.png') top center no-repeat;
+  background: url('../../assets/img/image3.png') top center no-repeat;
 }
 #slide5 {
   background: url('../../assets/img/image7.png') top center no-repeat;
@@ -3874,7 +3910,17 @@ h2.title {
     max-height: 100%;
   }
 
+#feedControl {
+  margin-top : 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width : 440px;
+  font-size: 12px;
+  color: #9CADD0;
+  }
 
 }
+
+
 
 /*# sourceMappingURL=material-kit.css.map */
