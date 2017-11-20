@@ -1383,7 +1383,7 @@ output {
     background-color: #d9002a;
     color: white;
 }*/
-.menu {
+.why-menu .menu {
   padding-top: 30%;
 }
 .menu li a.active {
