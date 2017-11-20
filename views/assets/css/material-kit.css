@@ -1167,6 +1167,7 @@ fieldset[disabled] .form-group.is-focused .radio label {
   border-color: #000000;
 }
 
+
 @keyframes rippleOn {
   0% {
     opacity: 0;
@@ -4077,6 +4078,34 @@ h2.title {
 
 .description {
   color: #999999;
+}
+.description li {
+  color:#999999;
+  list-style:none;
+  position: relative;
+  padding-left:20px;
+  line-height: 2;
+}
+
+.description li:before {
+  font-family:FontAwesome;
+  position: absolute;
+  left: 0;
+  color:#d9002a;
+}
+
+li.four:before {
+   content:"\f004";
+}
+li.five:before {
+   content:"\f1e2";
+}
+li.six:before {
+   content:"\f0e7";
+}
+
+li:hover:before {
+  color:#8A2BE2;
 }
 .why .brand {
   margin-top: 20vh;
