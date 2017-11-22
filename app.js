@@ -18,6 +18,4 @@ app.get('/', (req, res) => {
 
 // /bad - send back Json with Error Message
 
-app.listen(5000), () => {
-	console.log('server is up and running on port 3000')
-};
+app.listen(process.env.PORT || 5000)
