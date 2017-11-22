@@ -3,6 +3,8 @@ const app = express();
 
 const path = require("path")
 
+const PORT = process.env.PORT || 5000
+
 app.use(express.static(path.join(__dirname, 'views')));
 
 app.get('/', function (req, res)
@@ -16,6 +18,6 @@ app.get('/', (req, res) => {
 
 // /bad - send back Json with Error Message
 
-app.listen(3000), () => {
+app.listen(5000), () => {
 	console.log('server is up and running on port 3000')
 };
