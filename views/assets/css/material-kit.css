@@ -3255,13 +3255,13 @@ h2.title {
 #myCarousel .item { height: 500px; }
 
 #slide1 {
-  background: url('../../assets/img/image23.jpg') top center no-repeat;
-}
-#slide2 {
   background: url('../../assets/img/image2.png') top center no-repeat;
 }
-#slide3 {
+#slide2 {
   background: url('../../assets/img/image6.png') top center no-repeat;
+}
+#slide3 {
+  background: url('../../assets/img/image23.jpg') top center no-repeat;
 }
 #slide4 {
   background: url('../../assets/img/image3.png') top center no-repeat;
@@ -4107,18 +4107,18 @@ li:hover:before {
   color:#8A2BE2;
 }
 .why .brand {
-  margin-top: 13vh;
+  margin-top: 20vh;
   color: rgb(255, 255, 255);
   text-align: center;
   text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 }
 .why {
-  height: 40vh;
+  height: 60vh;
   min-height: 300px;
   background-size: cover;
   background-position: center center;
   position: relative;
-  background-image: url('../../assets/img/phil-image5.jpg');
+  background-image: url('../../assets/img/bg2.jpeg');
 }
 .about {
   height: 40vh;
@@ -4145,6 +4145,7 @@ li:hover:before {
   margin-top: 13vh;
   color: rgb(255, 255, 255);
   text-align: center;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 }
 
 .about .brand {
@@ -4154,19 +4155,19 @@ li:hover:before {
 }
 
 #web {
-  background: #f3f3f3 url('http://wp.ewsproduction.com/elliott/wp-content/themes/memorable/images/home-section-bg.png') bottom center repeat-x; 
   width: 960px; 
-  height: 960px; 
-  border: 1px solid #000; 
+  height: 600px; 
+  /*border: 1px solid #000; */
   position: relative; 
+  overflow: hidden
 }
 
 #center-sphere { 
   width: 275px; 
   height: 275px; 
   position: absolute; 
-  left: 342px; 
-  top: 342px; 
+  left: 150px; 
+  top: 140px; 
   border: 2px rgb(115,166,183) solid;
   border-radius: 50%;
 }
@@ -4201,19 +4202,19 @@ li:hover:before {
   height: 275px;
 }
 
-.one{left:605px; top: 405px;}
-.two{left: 567px; top: 523px;}
+.one{left:380px; top: 90px;}
+.two{left: 410px; top: 245px;}
 .three{left: 467px; top: 595px;}
 .four{left: 343px; top: 595px;}
-.five{left: 243px; top: 523px;}
-.six{left: 205px; top: 405px;}
-.seven{left: 243px; top: 287px;}
-.eight{left: 343px; top: 215px;}
+.five{left: 105px; top: 375px;}
+.six{left: 15px; top: 245px;}
+.seven{left: 45px; top: 90px;}
+.eight{left: 213px; top: 0px;}
 .nine{left: 467px; top: 215px;}
-.ten{left: 567px; top: 287px;}
+.ten{left: 320px; top: 375px;}
 
-.text {
-   -webkit-transition: all 0.5s ease-in-out;
+/*.text {
+  -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -4221,6 +4222,83 @@ li:hover:before {
   position: relative;
   top: 65px;
   left: 45px;
+}*/
+
+.correspondence {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 65px;
+  left: 25px;
+}
+
+.travel {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 65px;
+  left: 55px;
+}
+
+.responsibility {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 65px;
+  left: 32px;
+}
+
+.pastoral {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 65px;
+  left: 30px;
+}
+
+.support {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 65px;
+  left: 50px;
+}
+
+.applications {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 65px;
+  left: 35px;
+}
+
+.development {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 65px;
+  left: 33px;
 }
 
 .sphere:hover .text {
@@ -4260,7 +4338,7 @@ li:hover:before {
 .web-title {
    position: relative;
    top: 65px;
-   left: 25px;
+   left: 65px;
 }
 .web-description {
    position: relative;
