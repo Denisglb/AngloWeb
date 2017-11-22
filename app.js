@@ -1,15 +1,13 @@
 const express = require('express');
+const app = express();
 
-var app = express();
+const path = require("path")
 
-app.set('views', __dirname + '/views');
-app.engine('html', require('ejs').renderFile);
-
-app.set('view engine', 'ejs');
+app.use(express.static(path.join(__dirname, 'views')));
 
 app.get('/', function (req, res)
 {
-    res.render('why.html');
+    res.sendFile(path.join(__dirname+'/views/home.html'))
 });
 
 app.get('/', (req, res) => {
