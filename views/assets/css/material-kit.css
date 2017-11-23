@@ -2603,11 +2603,14 @@ legend {
 .navbar-inverse {
   background-color: #3f51b5;
 }
+
+/*A crime was commited here. CHANGE IT LATER WHEN NO ONE IS LOOKING ;)*/
 .navbar.navbar-transparent {
-  background-color: transparent;
+  background-color: #d9002a;
   box-shadow: none;
   color: #fff;
-  padding-top: 25px;
+  /*  padding-top: 25px;*/
+  /*CHANGE!!*/
 }
 .navbar.navbar-transparent .logo-container .brand {
   color: #FFFFFF;
@@ -4154,6 +4157,11 @@ li:hover:before {
   text-align: center;
 }
 
+.guardian {
+  padding-top: 15px;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
+
 #web {
   width: 960px; 
   height: 600px; 
@@ -4306,8 +4314,8 @@ li:hover:before {
   left: 100px;
 }
 
-.sphere:hover .muscles{
-  top: 20px;
+.sphere:hover .blurb{
+  top: 500px;
   left: 82px;
 }
 
@@ -4576,7 +4584,8 @@ hr.style1{
 .profile-page .navbar-transparent,
 .signup-page .navbar-transparent,
 .index-page .navbar-transparent {
-  padding-top: 25px;
+ /* padding-top: 25px;*/
+ /*CHANGE*/
 }
 
 @media (max-width: 991px) {

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js"
   },
-    "engines": {
+  "engines": {
     "node": "9.2.0"
   },
   "repository": {
@@ -22,7 +22,8 @@
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.1",
+    "nodemailer": "^4.4.0"
   },
   "directories": {
     "example": "examples"
