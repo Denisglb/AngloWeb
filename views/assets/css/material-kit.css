@@ -4164,11 +4164,37 @@ li:hover:before {
 
 #web {
   width: 960px; 
-  height: 600px; 
+  height: 550px; 
   /*border: 1px solid #000; */
   position: relative; 
   overflow: hidden
+  z-index:999;
 }
+
+.guard-point li {
+  color:black;
+  list-style:none;
+  position: relative;
+  padding-left:50px;
+  line-height: 2;
+}
+
+.guard-point li:before {
+  font-family:FontAwesome;
+  position: relative;
+  left: 0;
+  color:#318ca0;
+}
+
+.guard-one:before{
+  content:"\f054";
+}
+
+.guard-point ul li {
+  padding: 3px 0px;
+  padding-left: 50px;
+}
+
 
 #center-sphere { 
   width: 275px; 
