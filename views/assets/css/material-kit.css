@@ -4310,17 +4310,51 @@ li:hover:before {
 }
 
 .sphere:hover .text {
-  top: 20px;
-  left: 100px;
+  top: 80px;
+  left: 90px;
+  font-size: 30px
 }
 
-.sphere:hover .blurb{
-  top: 500px;
-  left: 82px;
+.sphere:hover .correspondence{
+  top: 80px;
+  left: 30px;
+  font-size: 30px
+}
+.sphere:hover .development{
+  top: 80px;
+  left: 50px;
+  font-size: 30px
+}
+.sphere:hover .applications{
+  top: 80px;
+  left: 50px;
+  font-size: 30px
+}
+.sphere:hover .responsibility{
+  top: 80px;
+  left: 40px;
+  font-size: 30px
+}
+.sphere:hover .pastoral{
+  top: 80px;
+  left: 47px;
+  font-size: 30px
+}
+.sphere:hover .support{
+  top: 80px;
+  left: 80px;
+  font-size: 30px
+}
+
+
+.sphere:hover .blurb p{
+  size: 5em;
 }
 
 .blurb {
-  margin: 2.5em;
+  margin-top: 90px;
+  margin-left: 40px;
+  margin-right: 20px;
   color: rgba(255,255,255,0);
   -ms-transform: scale(.9); 
   -webkit-transform: scale(.9); 
