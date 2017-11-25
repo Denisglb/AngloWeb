@@ -111,24 +111,6 @@ materialKitDemo = {
 
 }
 
-// (function($){$(function(){
-
-// var $window = $(window);
-
-// $window.on( 'scroll', function( event ){
-//   var scrollTop = $window.scrollTop();
-//   if( scrollTop > 150 ){
-//     $( 'nav.main .home span' ).addClass( 'tuck' );
-//     console.log( scrollTop );
-//   }else{
-//     $( 'nav.main .home span' ).removeClass( 'tuck' );
-//   }
-// });
-// Returns a function, that, as long as it continues to be invoked, will not
-// be triggered. The function will be called after it stops being called for
-// N milliseconds. If `immediate` is passed, trigger the function on the
-// leading edge, instead of the trailing.
-
 function debounce(func, wait, immediate) {
 	var timeout;
 	return function() {
@@ -141,3 +123,4 @@ function debounce(func, wait, immediate) {
 		if (immediate && !timeout) func.apply(context, args);
 	};
 };
+
