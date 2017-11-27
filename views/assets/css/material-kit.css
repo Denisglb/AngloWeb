@@ -4112,6 +4112,14 @@ li:hover:before {
 
 .trophy { 
 margin-top: 130%;
+width: 200px;
+height: 270px;
+overflow: hidden;
+}
+
+.trophy img {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
