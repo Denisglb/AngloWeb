@@ -4143,7 +4143,7 @@ li:hover:before {
   height: 50px;
   padding-top: 8px;
   margin-left: -15px;
-  background: rgba(32, 32, 34, 0.9);
+  background: linear-gradient(60deg, #d9002a, #7b1fa2);
   color: white;
   font-size: 70px;
   font-size: 4.375rem;
@@ -4337,19 +4337,23 @@ li:hover:before {
   width: 100%;
   height: 50px;
   line-height: 50px;
-  background-color: #252527;
+  background-color: #d9002a;
   text-align: center;
   text-transform: uppercase;
-  color: #6b6b70;
+  color: #fff;
   font-weight: 700;
-  font-size: 12px;
-  font-size: 0.75rem;
+ /* font-family: "Roboto", "Helvetica", "Arial", sans-serif!important;*/
+  font-size: 1.5rem;
   -webkit-transition: color, 0.2s;
   -moz-transition: color, 0.2s;
   transition: color, 0.2s;
 }
 .no-touch .cd-see-all:hover {
-  color: #79b6e4;
+  color: #7b1fa2;
+}
+
+.cd-see-all:hover {
+  color: #7b1fa2;
 }
 
 .cd-testimonials-all {
