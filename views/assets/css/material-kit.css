@@ -4128,8 +4128,6 @@ overflow: hidden;
   }
 }
 
-------------------------------------------------------------------------------------------------
-
 .cd-testimonials-wrapper, .cd-testimonials-wrapper * {
   margin: 0;
   padding: 0;
@@ -4539,7 +4537,6 @@ overflow: hidden;
   background: #eee;
 }
 
-------------------------------------------------------------------------------------------------
 /*Testimonials 2*/
 
 .cd-testimonials-wrapper-2, .cd-testimonials-wrapper-2 * {
@@ -4901,6 +4898,14 @@ overflow: hidden;
 
 .phil-menu .menu {
   padding-top: 12%;
+}
+
+.career {
+  height: 300px; 
+  position: bottom center; 
+  border-radius: 10px; 
+  background-repeat: no-repeat; 
+  background-image: url(../../assets/img/kid.jpg);
 }
 
 .phil {
