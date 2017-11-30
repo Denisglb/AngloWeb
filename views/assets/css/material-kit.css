@@ -3632,7 +3632,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .section {
-  padding: 0px 0;
+  padding: 70px 0px 0px 0px;
   margin-bottom: -5px;
 }
 
@@ -4113,6 +4113,7 @@ li:hover:before {
 .trophy { 
 margin-top: 130%;
 width: 200px;
+padding-right: 15px;
 height: 270px;
 overflow: hidden;
 }
@@ -4869,7 +4870,6 @@ overflow: hidden;
   background: #eee;
 }
 
-
 .why .brand {
   margin-top: 20vh;
   color: rgb(255, 255, 255);
@@ -5281,7 +5281,7 @@ hr.style1{
   left: 0;
   top: 0;
   content: "";
-  background-color: rgba(0, 0, 0, 0.2);
+ /* background-color: rgba(0, 0, 0, 0.2);*/
 }
 .header-filter .container {
   z-index: 2;
@@ -5352,7 +5352,7 @@ hr.style1{
   height: 80vh;
 }
 .landing-page .header .container {
-  padding-top: 26vh;
+  padding-top: 20vh;
   color: #FFFFFF;
 }
 .landing-page .header .share {
